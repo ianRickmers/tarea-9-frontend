@@ -16,11 +16,11 @@ p {
 }
 .carousel {
   height: auto;
-  text-align: center;
   margin-top: 5px;
   display: flex;
   justify-content: center;
 }
+
 .carousel__img {
   width: 100%;
   object-fit: cover;
@@ -30,16 +30,12 @@ p {
   .carousel {
     justify-content: center;
   }
-  .carousel__img {
-    width: 100%;
-  }
 }
 @media screen and (min-width: 1200px) {
   .carousel {
-    width: 100%;
-  }
-  .carousel__img {
-    width: 1200px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .layout {
